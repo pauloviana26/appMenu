@@ -8,6 +8,8 @@ import { MenuController } from '@ionic/angular';
 })
 export class AppComponent {
 
+  public activeIndex: number = 0;
+
   pages: Array<{ title: string, url: string, icon: string}>;
 
   constructor(private menu: MenuController) {
